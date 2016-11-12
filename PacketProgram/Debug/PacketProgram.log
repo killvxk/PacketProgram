@@ -1,0 +1,95 @@
+﻿Build started 18/09/2015 19:19:21.
+     1>Project "C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\PacketProgram\PacketProgram.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PacketProgram.cpp
+         PacketProgram.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\Debug\PacketProgram.exe" /INCREMENTAL /NOLOGO tins.lib Ws2_32.lib Iphlpapi.lib wpcap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\Debug\PacketProgram.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\Debug\PacketProgram.lib" /MACHINE:X86 Debug\PacketProgram.obj
+         Debug\stdafx.obj
+     1>tins.lib(pdu.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(pdu.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ip_address.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ip_address.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ethernetII.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ethernetII.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(network_interface.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(network_interface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(packet_writer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(packet_writer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(sniffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(sniffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(address_range.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(address_range.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(packet_sender.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(packet_sender.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(internals.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(internals.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(utils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_base.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_base.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(radiotap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(radiotap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(loopback.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(loopback.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(rawpdu.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(rawpdu.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot3.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot3.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(sll.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(sll.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ppi.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ppi.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ipv6_address.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ipv6_address.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ip.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ip.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ipv6.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ipv6.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(tcp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(tcp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(udp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(udp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(ipsec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(ipsec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(icmp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(icmp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(icmpv6.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(icmpv6.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(arp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(arp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(eapol.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(eapol.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot1q.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot1q.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(pppoe.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(pppoe.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_data.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_data.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_beacon.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_beacon.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_assoc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_assoc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_auth.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_auth.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_probe.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_probe.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_control.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_control.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(llc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(llc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(snap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(snap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(dot11_mgmt.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(dot11_mgmt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(stp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(stp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>tins.lib(rsn_information.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in PacketProgram.obj
+     1>tins.lib(rsn_information.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in PacketProgram.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\Debug\PacketProgram.exe : fatal error LNK1319: 80 mismatches detected
+     1>Done Building Project "C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\PacketProgram\PacketProgram.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.53

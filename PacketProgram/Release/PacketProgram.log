@@ -1,0 +1,92 @@
+﻿  BotClass.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+BotClass.cpp(88): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+BotClass.cpp(93): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+BotClass.cpp(106): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+BotClass.cpp(111): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  ConfigFile.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+ConfigFile.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+ConfigFile.cpp(240): warning C4018: '<' : signed/unsigned mismatch
+ConfigFile.cpp(268): warning C4018: '<' : signed/unsigned mismatch
+ConfigFile.cpp(284): warning C4018: '<' : signed/unsigned mismatch
+ConfigFile.cpp(376): warning C4018: '<' : signed/unsigned mismatch
+ConfigFile.cpp(515): warning C4018: '<' : signed/unsigned mismatch
+  ItemInterraction.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  MonsterInterraction.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+MonsterInterraction.cpp(144): warning C4018: '<=' : signed/unsigned mismatch
+MonsterInterraction.cpp(145): warning C4018: '<=' : signed/unsigned mismatch
+  PacketData.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+PacketData.cpp(11441): warning C4060: switch statement contains no 'case' or 'default' labels
+  PacketProgramBoost.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+PacketProgramBoost.cpp(300): warning C4018: '<' : signed/unsigned mismatch
+PacketProgramBoost.cpp(303): warning C4018: '<' : signed/unsigned mismatch
+PacketProgramBoost.cpp(306): warning C4018: '<' : signed/unsigned mismatch
+PacketProgramBoost.cpp(406): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+PacketProgramBoost.cpp(421): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+PacketProgramBoost.cpp(520): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+PacketProgramBoost.cpp(327): warning C4101: 'angle' : unreferenced local variable
+PacketProgramBoost.cpp(749): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+PacketProgramBoost.cpp(763): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+PacketProgramBoost.cpp(855): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+PacketProgramBoost.cpp(870): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+PacketProgramBoost.cpp(1057): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+PacketProgramBoost.cpp(1072): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+  PacketReception.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+PacketReception.cpp(276): warning C4101: 'message' : unreferenced local variable
+PacketReception.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+  Pattern.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  UseSkills.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Waypoint.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+Waypoint.cpp(66): warning C4293: '<<' : shift count negative or too big, undefined behavior
+Waypoint.cpp(127): warning C4244: 'initializing' : conversion from 'long double' to 'float', possible loss of data
+Waypoint.cpp(140): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+Waypoint.cpp(141): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+Waypoint.cpp(180): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+Waypoint.cpp(181): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+  Generating code
+c:\users\ulysse\documents\packetprogram\packetprogram\cryptography.cpp(1611): warning C4731: 'DecryptionCaller_016b8070' : frame pointer register 'ebp' modified by inline assembly code
+c:\users\ulysse\documents\packetprogram\packetprogram\cryptography.cpp(1595): warning C4731: 'EncryptionCaller_016b8070' : frame pointer register 'ebp' modified by inline assembly code
+c:\users\ulysse\documents\packetprogram\packetprogram\cryptography.cpp(1595): warning C4731: 'BasePacket::EncryptPacket' : frame pointer register 'ebp' modified by inline assembly code
+c:\users\ulysse\documents\packetprogram\packetprogram\cryptography.cpp(1611): warning C4731: 'ReadPacket' : frame pointer register 'ebp' modified by inline assembly code
+c:\users\ulysse\documents\packetprogram\packetprogram\cryptography.cpp(1611): warning C4731: 'ReadPacket' : frame pointer register 'ebp' modified by inline assembly code
+  Finished generating code
+  PacketProgram.vcxproj -> C:\Users\Ulysse\Documents\PacketProgram\Release\PacketProgram.exe

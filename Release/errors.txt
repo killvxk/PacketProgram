@@ -1,0 +1,6 @@
+erreur après plus de 24h de session.
+
+Crash en cours de decryption.
+Il est possible que l'encryption ait été terminée (le e de encrypted est print).
+taille du packet read  :1CF.
+les titres fournis sont corrects.

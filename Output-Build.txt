@@ -1,0 +1,237 @@
+﻿1>------ Build started: Project: PacketProgram, Configuration: Release Win32 ------
+1>  TeraLauncher.cpp
+1>  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+1>  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+1>  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+1>  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+1>TeraLauncher.cpp(285): warning C4101: 'c' : unreferenced local variable
+1>TeraLauncher.cpp(440): warning C4101: 'c' : unreferenced local variable
+1>TeraLauncher.cpp(580): warning C4101: 'x' : unreferenced local variable
+1>TeraLauncher.cpp(587): warning C4101: 'c' : unreferenced local variable
+1>TeraLauncher.cpp(637): warning C4101: 'x' : unreferenced local variable
+1>TeraLauncher.cpp(710): warning C4101: 'c' : unreferenced local variable
+1>TeraLauncher.cpp(807): warning C4101: 'x' : unreferenced local variable
+1>TeraLauncher.cpp(854): warning C4101: 'c' : unreferenced local variable
+1>TeraLauncher.cpp(1053): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+1>TeraLauncher.cpp(1052): warning C4101: 'oui' : unreferenced local variable
+1>C:\boost_1_59_0\boost/iostreams/copy.hpp(128): warning C4244: 'argument' : conversion from 'std::streamsize' to 'int', possible loss of data
+1>          C:\boost_1_59_0\boost/iostreams/copy.hpp(159) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::copy_impl<Source,Sink>(Source &,Sink &,std::streamsize,boost::mpl::false_,boost::mpl::false_)' being compiled
+1>          with
+1>          [
+1>              Source=boost::reference_wrapper<boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>>
+1>  ,            Sink=boost::reference_wrapper<std::ostream>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/copy.hpp(157) : while compiling class template member function 'std::streamsize boost::iostreams::detail::copy_operation<Source,Sink>::operator ()(void)'
+1>          with
+1>          [
+1>              Source=boost::reference_wrapper<boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>>
+1>  ,            Sink=boost::reference_wrapper<std::ostream>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/detail/execute.hpp(53) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::copy_operation<Source,Sink>::operator ()(void)' being compiled
+1>          with
+1>          [
+1>              Source=boost::reference_wrapper<boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>>
+1>  ,            Sink=boost::reference_wrapper<std::ostream>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/copy.hpp(180) : see reference to class template instantiation 'boost::iostreams::detail::copy_operation<Source,Sink>' being compiled
+1>          with
+1>          [
+1>              Source=boost::reference_wrapper<boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>>
+1>  ,            Sink=boost::reference_wrapper<std::ostream>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/copy.hpp(245) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::copy_impl<boost::reference_wrapper<T>,boost::reference_wrapper<std::basic_ostream<char,std::char_traits<char>>>>(Source,Sink,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              T=boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>
+1>  ,            Source=boost::reference_wrapper<boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>>
+1>  ,            Sink=boost::reference_wrapper<std::ostream>
+1>          ]
+1>          TeraLauncher.cpp(74) : see reference to function template instantiation 'std::streamsize boost::iostreams::copy<boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>,std::ostream>(Source &,Sink &,std::streamsize,void *,void *)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::filtering_streambuf<boost::iostreams::input,char,std::char_traits<char>,std::allocator<char>,boost::iostreams::public_>
+1>  ,            Sink=std::ostream
+1>          ]
+1>C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(599): warning C4244: 'argument' : conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(597) : while compiling class template member function 'bool boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::putback(char)'
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(512) : see reference to function template instantiation 'bool boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::putback(char)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(465) : see reference to class template instantiation 'boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/read.hpp(214) : see reference to function template instantiation 'std::streamsize boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::read<Source>(Source &,boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::char_type *,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/read.hpp(214) : see reference to function template instantiation 'std::streamsize boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::read<Source>(Source &,boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::char_type *,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/read.hpp(57) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::read_filter_impl<boost::iostreams::multichar_tag>::read<boost::iostreams::basic_gzip_decompressor<std::allocator<char>>,Source>(T &,Source &,char *,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/detail/adapter/concept_adapter.hpp(253) : see reference to function template instantiation 'std::streamsize boost::iostreams::read<Filter,Source>(T &,Source &,char *,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Filter=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>  ,            Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/detail/adapter/concept_adapter.hpp(77) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::flt_wrapper_impl<boost::iostreams::input>::read<boost::iostreams::basic_gzip_decompressor<std::allocator<char>>,Source>(Filter &,Source *,char *,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>  ,            Filter=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/detail/streambuf/indirect_streambuf.hpp(258) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::concept_adapter<T>::read<boost::iostreams::detail::linked_streambuf<Ch,std::char_traits<char>>>(char *,std::streamsize,Source *)' being compiled
+1>          with
+1>          [
+1>              T=component_type
+1>  ,            Ch=char
+1>  ,            Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/detail/streambuf/indirect_streambuf.hpp(258) : see reference to function template instantiation 'std::streamsize boost::iostreams::detail::concept_adapter<T>::read<boost::iostreams::detail::linked_streambuf<Ch,std::char_traits<char>>>(char *,std::streamsize,Source *)' being compiled
+1>          with
+1>          [
+1>              T=component_type
+1>  ,            Ch=char
+1>  ,            Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/detail/streambuf/indirect_streambuf.hpp(237) : while compiling class template member function 'int boost::iostreams::detail::indirect_streambuf<T,Tr,Alloc,Mode>::underflow(void)'
+1>          with
+1>          [
+1>              T=component_type
+1>  ,            Tr=std::char_traits<char>
+1>  ,            Alloc=std::allocator<char>
+1>  ,            Mode=boost::iostreams::output
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/stream_buffer.hpp(66) : see reference to class template instantiation 'boost::iostreams::detail::indirect_streambuf<T,Tr,Alloc,Mode>' being compiled
+1>          with
+1>          [
+1>              T=component_type
+1>  ,            Tr=std::char_traits<char>
+1>  ,            Alloc=std::allocator<char>
+1>  ,            Mode=boost::iostreams::output
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(257) : see reference to class template instantiation 'boost::iostreams::stream_buffer<component_type,std::char_traits<char>,Alloc,Mode>' being compiled
+1>          with
+1>          [
+1>              Alloc=std::allocator<char>
+1>  ,            Mode=boost::iostreams::output
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(216) : see reference to function template instantiation 'void boost::iostreams::detail::chain_base<boost::iostreams::chain<Mode,Ch,Tr,Alloc>,Ch,Tr,Alloc,Mode>::push_impl<T>(const T &,std::streamsize,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Mode=boost::iostreams::output
+1>  ,            Ch=char
+1>  ,            Tr=std::char_traits<char>
+1>  ,            Alloc=std::allocator<char>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(216) : see reference to function template instantiation 'void boost::iostreams::detail::chain_base<boost::iostreams::chain<Mode,Ch,Tr,Alloc>,Ch,Tr,Alloc,Mode>::push_impl<T>(const T &,std::streamsize,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Mode=boost::iostreams::output
+1>  ,            Ch=char
+1>  ,            Tr=std::char_traits<char>
+1>  ,            Alloc=std::allocator<char>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(499) : see reference to function template instantiation 'void boost::iostreams::detail::chain_base<boost::iostreams::chain<Mode,Ch,Tr,Alloc>,Ch,Tr,Alloc,Mode>::push<T>(const T &,std::streamsize,std::streamsize,void *)' being compiled
+1>          with
+1>          [
+1>              Mode=boost::iostreams::output
+1>  ,            Ch=char
+1>  ,            Tr=std::char_traits<char>
+1>  ,            Alloc=std::allocator<char>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(499) : see reference to function template instantiation 'void boost::iostreams::detail::chain_base<boost::iostreams::chain<Mode,Ch,Tr,Alloc>,Ch,Tr,Alloc,Mode>::push<T>(const T &,std::streamsize,std::streamsize,void *)' being compiled
+1>          with
+1>          [
+1>              Mode=boost::iostreams::output
+1>  ,            Ch=char
+1>  ,            Tr=std::char_traits<char>
+1>  ,            Alloc=std::allocator<char>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(488) : see reference to function template instantiation 'void boost::iostreams::detail::chain_client<Chain>::push_impl<T>(const T &,std::streamsize,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Chain=boost::iostreams::chain<boost::iostreams::output,char,std::char_traits<char>,std::allocator<char>>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/chain.hpp(488) : see reference to function template instantiation 'void boost::iostreams::detail::chain_client<Chain>::push_impl<T>(const T &,std::streamsize,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Chain=boost::iostreams::chain<boost::iostreams::output,char,std::char_traits<char>,std::allocator<char>>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          TeraLauncher.cpp(60) : see reference to function template instantiation 'void boost::iostreams::detail::chain_client<Chain>::push<boost::iostreams::basic_gzip_decompressor<std::allocator<char>>>(const T &,std::streamsize,std::streamsize,void *)' being compiled
+1>          with
+1>          [
+1>              Chain=boost::iostreams::chain<boost::iostreams::output,char,std::char_traits<char>,std::allocator<char>>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>          TeraLauncher.cpp(60) : see reference to function template instantiation 'void boost::iostreams::detail::chain_client<Chain>::push<boost::iostreams::basic_gzip_decompressor<std::allocator<char>>>(const T &,std::streamsize,std::streamsize,void *)' being compiled
+1>          with
+1>          [
+1>              Chain=boost::iostreams::chain<boost::iostreams::output,char,std::char_traits<char>,std::allocator<char>>
+1>  ,            T=boost::iostreams::basic_gzip_decompressor<std::allocator<char>>
+1>          ]
+1>C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(608): warning C4244: 'argument' : conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(607) : while compiling class template member function 'void boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::putback(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(491) : see reference to function template instantiation 'void boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::putback(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(621): warning C4244: 'argument' : conversion from 'const std::streamsize' to 'unsigned int', possible loss of data
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(620) : while compiling class template member function 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::unconsumed_input(void) const'
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(522) : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::unconsumed_input(void) const' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(583): warning C4244: 'argument' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+1>          C:\boost_1_59_0\boost/iostreams/filter/gzip.hpp(574) : while compiling class template member function 'std::streamsize boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::read(char *,std::streamsize)'
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>          C:\boost_1_59_0\boost/iostreams/read.hpp(180) : see reference to function template instantiation 'std::streamsize boost::iostreams::basic_gzip_decompressor<std::allocator<char>>::peekable_source<Source>::read(char *,std::streamsize)' being compiled
+1>          with
+1>          [
+1>              Source=boost::iostreams::detail::linked_streambuf<char,std::char_traits<char>>
+1>          ]
+1>  Generating code
+1>c:\users\ulysselaptop\documents\visual studio 2013\projects\packetprogram\packetprogram\cryptography.cpp(1611): warning C4731: 'DecryptionCaller_016b8070' : frame pointer register 'ebp' modified by inline assembly code
+1>c:\users\ulysselaptop\documents\visual studio 2013\projects\packetprogram\packetprogram\cryptography.cpp(1595): warning C4731: 'EncryptionCaller_016b8070' : frame pointer register 'ebp' modified by inline assembly code
+1>c:\users\ulysselaptop\documents\visual studio 2013\projects\packetprogram\packetprogram\cryptography.cpp(1595): warning C4731: 'BasePacket::EncryptPacket' : frame pointer register 'ebp' modified by inline assembly code
+1>c:\users\ulysselaptop\documents\visual studio 2013\projects\packetprogram\packetprogram\cryptography.cpp(1611): warning C4731: 'ReadPacket' : frame pointer register 'ebp' modified by inline assembly code
+1>c:\users\ulysselaptop\documents\visual studio 2013\projects\packetprogram\packetprogram\cryptography.cpp(1611): warning C4731: 'ReadPacket' : frame pointer register 'ebp' modified by inline assembly code
+1>  Finished generating code
+1>  PacketProgram.vcxproj -> C:\Users\UlysseLaptop\Documents\Visual Studio 2013\Projects\PacketProgram\Release\PacketProgram.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

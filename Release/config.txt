@@ -1,0 +1,20 @@
+[friends]
+[partners]
+[Watcher]
+[ThrallCooldown]
+175
+[Patterns]
+Kelsaik = TRUE
+PowerLevel = FALSE
+Watcher = FALSE
+GetLeveled = FALSE
+[Game Version]
+EU = FALSE
+NA = TRUE
+[Servers]
+Mount Tyranas = TRUE
+Fraya = FALSE
+Killian = FALSE
+Tempest Reach = FALSE
+[Login]
+Use Auto Login = FALSE
